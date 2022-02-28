@@ -1,0 +1,137 @@
+:root{
+  --color-texto: rgb(100, 100, 100);
+  --color-background: rgb(228, 228, 228);
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  margin: 0 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: var(--color-texto);
+}
+.user{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.menu{
+  width: 23px;
+  height: 23px;
+}
+
+main{
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+main div{
+  display: inline-block;
+}
+main section{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo-google{
+  width: 45%;
+  margin-bottom: 10px;
+}
+.busqueda{
+  display: flex;
+  width: 70%;
+  padding: 10px 15px;
+  gap: 20px;
+  border: 1px solid rgba(168, 168, 168, 0.596);
+  border-radius: 30px;
+  margin: 40px;
+}
+.busqueda img{
+  width: 20px;
+}
+.busqueda input{
+  width: 90%;
+  border: none;
+  font-size: 1.6rem;
+}
+.botones{
+  display: flex;
+  gap: 15px;
+}
+.botones button{
+  font-size: 1.4rem;
+  color: var(--color-texto);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-background);
+  padding: 10px;
+  border-radius: 3px;
+}
+.idioma{
+  color: var(--color-texto);
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+.idioma a{
+  text-decoration: none;
+  color: rgb(71, 71, 252);
+}
+
+footer{
+  background-color: var(--color-background);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 8vh;
+  font-size: 1.6rem;
+  padding: 30px;
+  border-top: 1px solid rgb(211, 211, 211);
+}
+footer ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+footer a{
+  text-decoration: none;
+  color: var(--color-texto);
+}
+.footer-1{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.footer-2{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
