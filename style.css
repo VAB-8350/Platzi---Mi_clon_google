@@ -101,6 +101,12 @@ main section{
   padding: 10px;
   border-radius: 3px;
 }
+.botones button:hover{
+  color: rgb(49, 49, 49);
+  border: 1px solid #8a8c8f;
+  box-shadow: 0 0 5px #b4b4b4;
+  cursor: pointer;
+}
 .idioma{
   color: var(--color-texto);
   margin-top: 30px;
