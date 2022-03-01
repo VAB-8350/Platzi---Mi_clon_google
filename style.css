@@ -1,6 +1,6 @@
 :root{
-  --color-texto: rgb(100, 100, 100);
-  --color-background: rgb(228, 228, 228);
+  --color-texto: rgb(97, 97, 97);
+  --color-background: #dfe1e5;
 }
 *{
   box-sizing: border-box;
@@ -61,25 +61,33 @@ main section{
   justify-content: flex-end;
 }
 .logo-google{
-  width: 45%;
+  width: 35%;
   margin-bottom: 10px;
 }
 .busqueda{
   display: flex;
   width: 70%;
-  padding: 10px 15px;
+  padding: 15px;
   gap: 20px;
-  border: 1px solid rgba(168, 168, 168, 0.596);
+  border: 1px solid var(--color-background);
   border-radius: 30px;
   margin: 40px;
+}
+.busqueda:hover{
+  box-shadow: 0px 0px 20px var(--color-background);
 }
 .busqueda img{
   width: 20px;
 }
+.busqueda a img{
+  width: 20px;
+}
 .busqueda input{
-  width: 90%;
+  width: 100%;
   border: none;
+  outline: none;
   font-size: 1.6rem;
+  color: var(--color-texto);
 }
 .botones{
   display: flex;
